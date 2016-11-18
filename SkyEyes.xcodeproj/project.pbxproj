@@ -8,20 +8,62 @@
 
 /* Begin PBXBuildFile section */
 		AE0E68CA1DDDDE4300558B2B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0E68C91DDDDE4300558B2B /* AppDelegate.swift */; };
-		AE0E68CC1DDDDE4300558B2B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE0E68CB1DDDDE4300558B2B /* ViewController.swift */; };
-		AE0E68CF1DDDDE4300558B2B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0E68CD1DDDDE4300558B2B /* Main.storyboard */; };
 		AE0E68D11DDDDE4300558B2B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE0E68D01DDDDE4300558B2B /* Assets.xcassets */; };
 		AE0E68D41DDDDE4300558B2B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0E68D21DDDDE4300558B2B /* LaunchScreen.storyboard */; };
+		AE6FFB3C1DDE00B200C58ADF /* SEIntersectionsLinks.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6FFB3B1DDE00B200C58ADF /* SEIntersectionsLinks.swift */; };
+		AE6FFB3E1DDE01C400C58ADF /* SEIntersectionsNodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6FFB3D1DDE01C400C58ADF /* SEIntersectionsNodes.swift */; };
+		AE6FFB401DDE03B700C58ADF /* SEVolumes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6FFB3F1DDE03B700C58ADF /* SEVolumes.swift */; };
+		AE6FFB421DDE041C00C58ADF /* SETrajectory.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6FFB411DDE041C00C58ADF /* SETrajectory.swift */; };
+		AE6FFB471DDE16BC00C58ADF /* RealmSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6FFB361DDDE5D200C58ADF /* RealmSwift.framework */; };
+		AE6FFB481DDE16BC00C58ADF /* RealmSwift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE6FFB361DDDE5D200C58ADF /* RealmSwift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE6FFB491DDE16C200C58ADF /* Realm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE6FFB391DDDE87200C58ADF /* Realm.framework */; };
+		AE6FFB4A1DDE16C200C58ADF /* Realm.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AE6FFB391DDDE87200C58ADF /* Realm.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		AE6FFB521DDE204200C58ADF /* VideoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6FFB511DDE204200C58ADF /* VideoTableViewController.swift */; };
+		AE6FFB561DDE246000C58ADF /* RealmService.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6FFB551DDE246000C58ADF /* RealmService.swift */; };
+		AE6FFB5C1DDE2C1400C58ADF /* VideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6FFB5A1DDE2C1400C58ADF /* VideoTableViewCell.swift */; };
+		AE6FFB621DDE819400C58ADF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE6FFB601DDE819400C58ADF /* Main.storyboard */; };
+		AE6FFB641DDE829D00C58ADF /* VideoPlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6FFB631DDE829D00C58ADF /* VideoPlayerViewController.swift */; };
+		AE6FFB671DDE9BFD00C58ADF /* test.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = AE6FFB651DDE988600C58ADF /* test.mp4 */; };
+		AE6FFB691DDE9F6B00C58ADF /* ExtensionUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE6FFB681DDE9F6B00C58ADF /* ExtensionUtil.swift */; };
+		AEC4ACCA1DDDDF9C00CDFEAB /* SEVideo.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC4ACC91DDDDF9C00CDFEAB /* SEVideo.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AEC4ACDC1DDDE4F600CDFEAB /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				AE6FFB4A1DDE16C200C58ADF /* Realm.framework in Embed Frameworks */,
+				AE6FFB481DDE16BC00C58ADF /* RealmSwift.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		AE0E68C61DDDDE4300558B2B /* SkyEyes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SkyEyes.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE0E68C91DDDDE4300558B2B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AE0E68CB1DDDDE4300558B2B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AE0E68CE1DDDDE4300558B2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AE0E68D01DDDDE4300558B2B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AE0E68D31DDDDE4300558B2B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE0E68D51DDDDE4300558B2B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE6FFB361DDDE5D200C58ADF /* RealmSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = RealmSwift.framework; sourceTree = "<group>"; };
+		AE6FFB391DDDE87200C58ADF /* Realm.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Realm.framework; sourceTree = "<group>"; };
+		AE6FFB3B1DDE00B200C58ADF /* SEIntersectionsLinks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEIntersectionsLinks.swift; sourceTree = "<group>"; };
+		AE6FFB3D1DDE01C400C58ADF /* SEIntersectionsNodes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEIntersectionsNodes.swift; sourceTree = "<group>"; };
+		AE6FFB3F1DDE03B700C58ADF /* SEVolumes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEVolumes.swift; sourceTree = "<group>"; };
+		AE6FFB411DDE041C00C58ADF /* SETrajectory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SETrajectory.swift; sourceTree = "<group>"; };
+		AE6FFB511DDE204200C58ADF /* VideoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewController.swift; sourceTree = "<group>"; };
+		AE6FFB551DDE246000C58ADF /* RealmService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmService.swift; sourceTree = "<group>"; };
+		AE6FFB5A1DDE2C1400C58ADF /* VideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoTableViewCell.swift; sourceTree = "<group>"; };
+		AE6FFB5F1DDE3FF600C58ADF /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		AE6FFB611DDE819400C58ADF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE6FFB631DDE829D00C58ADF /* VideoPlayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VideoPlayerViewController.swift; sourceTree = "<group>"; };
+		AE6FFB651DDE988600C58ADF /* test.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test.mp4; sourceTree = "<group>"; };
+		AE6FFB681DDE9F6B00C58ADF /* ExtensionUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionUtil.swift; sourceTree = "<group>"; };
+		AEC4ACC91DDDDF9C00CDFEAB /* SEVideo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SEVideo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +71,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE6FFB491DDE16C200C58ADF /* Realm.framework in Frameworks */,
+				AE6FFB471DDE16BC00C58ADF /* RealmSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +84,7 @@
 			children = (
 				AE0E68C81DDDDE4300558B2B /* SkyEyes */,
 				AE0E68C71DDDDE4300558B2B /* Products */,
+				AEC4ACCF1DDDE23000CDFEAB /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +99,81 @@
 		AE0E68C81DDDDE4300558B2B /* SkyEyes */ = {
 			isa = PBXGroup;
 			children = (
+				AE6FFB661DDE989700C58ADF /* Resources */,
+				AE6FFB461DDE0CD600C58ADF /* Services */,
+				AE6FFB451DDE0CC800C58ADF /* Utils */,
+				AE6FFB441DDE0CBA00C58ADF /* ViewControllers */,
+				AE6FFB431DDE0CB300C58ADF /* Views */,
+				AEC4ACC81DDDDF0600CDFEAB /* DataModels */,
 				AE0E68C91DDDDE4300558B2B /* AppDelegate.swift */,
-				AE0E68CB1DDDDE4300558B2B /* ViewController.swift */,
-				AE0E68CD1DDDDE4300558B2B /* Main.storyboard */,
 				AE0E68D01DDDDE4300558B2B /* Assets.xcassets */,
+				AE6FFB601DDE819400C58ADF /* Main.storyboard */,
 				AE0E68D21DDDDE4300558B2B /* LaunchScreen.storyboard */,
 				AE0E68D51DDDDE4300558B2B /* Info.plist */,
 			);
 			path = SkyEyes;
+			sourceTree = "<group>";
+		};
+		AE6FFB431DDE0CB300C58ADF /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AE6FFB5A1DDE2C1400C58ADF /* VideoTableViewCell.swift */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		AE6FFB441DDE0CBA00C58ADF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AE6FFB511DDE204200C58ADF /* VideoTableViewController.swift */,
+				AE6FFB631DDE829D00C58ADF /* VideoPlayerViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AE6FFB451DDE0CC800C58ADF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				AE6FFB681DDE9F6B00C58ADF /* ExtensionUtil.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		AE6FFB461DDE0CD600C58ADF /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				AE6FFB551DDE246000C58ADF /* RealmService.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		AE6FFB661DDE989700C58ADF /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AE6FFB651DDE988600C58ADF /* test.mp4 */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		AEC4ACC81DDDDF0600CDFEAB /* DataModels */ = {
+			isa = PBXGroup;
+			children = (
+				AEC4ACC91DDDDF9C00CDFEAB /* SEVideo.swift */,
+				AE6FFB3B1DDE00B200C58ADF /* SEIntersectionsLinks.swift */,
+				AE6FFB3D1DDE01C400C58ADF /* SEIntersectionsNodes.swift */,
+				AE6FFB3F1DDE03B700C58ADF /* SEVolumes.swift */,
+				AE6FFB411DDE041C00C58ADF /* SETrajectory.swift */,
+			);
+			name = DataModels;
+			sourceTree = "<group>";
+		};
+		AEC4ACCF1DDDE23000CDFEAB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE6FFB391DDDE87200C58ADF /* Realm.framework */,
+				AE6FFB361DDDE5D200C58ADF /* RealmSwift.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +186,7 @@
 				AE0E68C21DDDDE4300558B2B /* Sources */,
 				AE0E68C31DDDDE4300558B2B /* Frameworks */,
 				AE0E68C41DDDDE4300558B2B /* Resources */,
+				AEC4ACDC1DDDE4F600CDFEAB /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -124,9 +237,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE6FFB671DDE9BFD00C58ADF /* test.mp4 in Resources */,
+				AE6FFB621DDE819400C58ADF /* Main.storyboard in Resources */,
 				AE0E68D41DDDDE4300558B2B /* LaunchScreen.storyboard in Resources */,
 				AE0E68D11DDDDE4300558B2B /* Assets.xcassets in Resources */,
-				AE0E68CF1DDDDE4300558B2B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,28 +251,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AE0E68CC1DDDDE4300558B2B /* ViewController.swift in Sources */,
+				AE6FFB3C1DDE00B200C58ADF /* SEIntersectionsLinks.swift in Sources */,
+				AE6FFB3E1DDE01C400C58ADF /* SEIntersectionsNodes.swift in Sources */,
+				AE6FFB421DDE041C00C58ADF /* SETrajectory.swift in Sources */,
+				AE6FFB691DDE9F6B00C58ADF /* ExtensionUtil.swift in Sources */,
+				AE6FFB401DDE03B700C58ADF /* SEVolumes.swift in Sources */,
+				AE6FFB521DDE204200C58ADF /* VideoTableViewController.swift in Sources */,
+				AEC4ACCA1DDDDF9C00CDFEAB /* SEVideo.swift in Sources */,
 				AE0E68CA1DDDDE4300558B2B /* AppDelegate.swift in Sources */,
+				AE6FFB641DDE829D00C58ADF /* VideoPlayerViewController.swift in Sources */,
+				AE6FFB561DDE246000C58ADF /* RealmService.swift in Sources */,
+				AE6FFB5C1DDE2C1400C58ADF /* VideoTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AE0E68CD1DDDDE4300558B2B /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AE0E68CE1DDDDE4300558B2B /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AE0E68D21DDDDE4300558B2B /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				AE0E68D31DDDDE4300558B2B /* Base */,
+				AE6FFB5F1DDE3FF600C58ADF /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		AE6FFB601DDE819400C58ADF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE6FFB611DDE819400C58ADF /* Base */,
+			);
+			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -168,6 +292,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -218,6 +343,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -262,6 +388,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8NYA6PQ2KN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SkyEyes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lu.siwei.SkyEyes;
@@ -275,6 +405,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8NYA6PQ2KN;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = SkyEyes/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = lu.siwei.SkyEyes;
@@ -302,6 +436,7 @@
 				AE0E68DA1DDDDE4300558B2B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
